@@ -10,12 +10,14 @@
 #include <dt-bindings/zmk/mouse.h>
 
 
+
 #define MAIN  0
 #define QWERT 1
 #define NUM   2
 #define NAV   3
 #define SYMB  4
 #define FUNC  5
+#define MOUSE 6
 
 
 &lt {
@@ -222,6 +224,17 @@
                   &bt BT_PRV  &bt BT_CLR  &bt BT_NXT               &kp RGUI  &trans  &none 
             >;
         };
+
+        Mouse {
+            label = "Mouse";
+            bindings = <
+   &trans  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans
+   &trans  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans
+   &trans  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans
+                              &trans  &trans     &trans    &trans  &trans
+            >;
+        };
+
 
 
         };
