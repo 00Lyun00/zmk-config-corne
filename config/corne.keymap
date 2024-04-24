@@ -21,6 +21,8 @@
 #define SLCT  7
 #define HANDY 8
 
+#define MEH(key) LA(LS(LC(key)))
+
 
 &lt {
     tapping-term-ms = <150>;
@@ -241,10 +243,10 @@
         Slct {
             label = "Slct";
             bindings = <
-   &none   &none  &kp LS(LC(LA(W)))  &kp LS(LC(LA(F)))  &kp LS(LC(LA(P)))  &kp LS(LC(LA(B)))   &none &none &none &none &none &none
-   &none   &none  &kp LS(LC(LA(R)))  &kp LS(LC(LA(S)))  &kp LS(LC(LA(T)))  &kp LS(LC(LA(G)))   &none &none &none &none &none &none
-   &none   &none  &kp LS(LC(LA(X)))  &kp LS(LC(LA(C)))  &kp LS(LC(LA(D)))  &kp LS(LC(LA(V)))   &none &none &none &none &none &none
-                           &kp LS(LC(LA(Q)))  &kp LS(LC(LA(A)))  &kp LS(LC(LA(Z)))          &none   &none   &none
+   &none   &none  &kp MEH(W)  &kp MEH(F)  &kp MEH(P)  &kp MEH(B)   &none &none &none &none &none &none
+   &none   &none  &kp MEH(R)  &kp MEH(S)  &kp MEH(T)  &kp MEH(G)   &none &none &none &none &none &none
+   &none   &none  &kp MEH(X)  &kp MEH(C)  &kp MEH(D)  &kp MEH(V)   &none &none &none &none &none &none
+                              &kp MEH(Q)  &kp MEH(A)  &kp MEH(Z)   &none   &none   &none
             >;
         };
 
