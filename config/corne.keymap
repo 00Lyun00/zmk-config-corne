@@ -190,7 +190,7 @@
                         bindings = <
 
 &none   &kp LG(B) &bootloader &kp LG(F) &kp LG(S) &kp LS(LG(S))        &kp ASTRK  &kp N7   &kp N8  &kp N9  &kp MINUS  &kp HOME
-&none   &sk LCTRL &sk LEFT_ALT &sk LGUI &sk LSHFT &kp LC(A)            &kp FSLH   &kp N4   &kp N5  &kp N6  &kp PLUS    &trans
+&none   &sk LCTRL &sk LEFT_ALT &sk LGUI &sk LSHFT &kp LG(A)            &kp FSLH   &kp N4   &kp N5  &kp N6  &kp PLUS    &trans
 &none   &kp LG(Z) &kp LG(X)  &kp LG(C) &kp LG(V) &kp LG(Y)             &kp EQUAL  &kp N1   &kp N2  &kp N3  &kp N0    &trans
                                &kp LGUI  &kp SPACE    &trans           &kp BSPC  &kp DOT   &none
                         >;
@@ -200,10 +200,10 @@
                         label = "Nav";
                         bindings = <
 
-&none    &kp EXCL   &kp PG_UP &kp UP   &kp PG_DN  &none           &bootloader   &none   &kp RCTRL  &kp RALT  &none    &none
-&none    &kp HOME   &kp LEFT  &kp DOWN &kp RIGHT  &kp END         &to MAIN  &sk LSHFT   &sk LCTRL  &sk LEFT_ALT &sk LGUI   &none
-&none    &kp GRAVE  &none     &none    &kp TAB    &none           &kp LG(Y) &kp LG(V)   &kp LG(C)   &kp LG(X)   &kp LG(Z)  &none
-                        &kp BSPC  &kp SPACE  &kp RET               &trans    &none   &none 
+&none    &kp EXCL   &kp PG_UP &kp UP   &kp PG_DN  &kp LS(LA(TAB)          &bootloader   &none   &kp RCTRL  &kp RALT  &none    &none
+&none    &kp HOME   &kp LEFT  &kp DOWN &kp RIGHT  &kp END                 &to MAIN  &sk LSHFT   &sk LCTRL  &sk LEFT_ALT &sk LGUI   &none
+&none    &kp GRAVE   &kp LS(TAB)     &none    &kp TAB    &kp LA(TAB)      &kp LG(Y) &kp LG(V)   &kp LG(C)   &kp LG(X)   &kp LG(Z)  &none
+                        &kp BSPC  &kp SPACE  &kp RET                      &trans    &none   &none 
                         >;
                 };
 
@@ -241,20 +241,20 @@
         Slct {
             label = "Slct";
             bindings = <
-   &none   &none   &none   &none   &none   &none          &none   &none   &none   &none   &none   &none
-   &none   &none   &none   &none   &none   &none          &none   &none   &none   &none   &none   &none
-   &none   &none   &none   &none   &none   &none          &none   &none   &none   &none   &none   &none
-                           &none   &none   &none          &none   &none   &none
+   &none   &none  &kp LS((LC(LA(W))))  &kp LS((LC(LA(F))))  &kp LS((LC(LA(P))))  &kp LS((LC(LA(B))))   &none &none &none &none &none &none
+   &none   &none  &kp LS((LC(LA(R))))  &kp LS((LC(LA(S))))  &kp LS((LC(LA(T))))  &kp LS((LC(LA(G))))   &none &none &none &none &none &none
+   &none   &none  &kp LS((LC(LA(X))))  &kp LS((LC(LA(C))))  &kp LS((LC(LA(D))))  &kp LS((LC(LA(V))))   &none &none &none &none &none &none
+                           &kp LS((LC(LA(Q))))  &kp LS((LC(LA(A))))  &kp LS((LC(LA(Z))))          &none   &none   &none
             >;
         };
 
         Handy {
             label = "Handy";
             bindings = <
-    &none        &kp F17         &kp F18         &kp F19         &kp LT          &kp PRINTSCREEN   &kp AMPERSAND  &kp ASTRK  &kp LPAR  &kp RPAR
-    &none        &kp F16         &kp LBKT        &kp RBKT        &kp TILDE       &kp SCROLLLOCK    &kp DLLR       &kp PRCNT  &kp CARET &kp GRAVE
-    &none        &kp F13         &kp F14         &kp F15         &kp GT          &kp PAUSE_BREAK   &kp EXCL       &kp AT     &kp HASH  &kp NON_US_BSLH
-                                 &bt BT_PRV      &bt BT_CLR   &bt BT_NXT         &none  &none      &none
+   &none &none   &kp F17     &kp F18     &kp F19     &kp LT          &kp PRINTSCREEN   &kp AMPERSAND  &kp ASTRK  &kp LPAR  &kp RPAR
+   &none &none   &kp F16     &kp LBK     &kp RBKT    &kp TILDE       &kp SCROLLLOCK    &kp DLLR       &kp PRCNT  &kp CARET &kp GRAVE
+   &none &none   &kp F13     &kp F14     &kp F15     &kp GT          &kp PAUSE_BREAK   &kp EXCL       &kp AT     &kp HASH  &kp NON_US_BSLH
+                     &bt BT_PRV      &bt BT_CLR   &bt BT_NXT         &none  &none      &none
             >;
         };
 
