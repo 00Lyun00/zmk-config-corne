@@ -36,6 +36,8 @@
   &kp ESC  &kp A  &kp S      &kp D      &kp F  &kp G    &kp H    &kp J      &kp K    &kp L  &kp SEMI    &kp APOS
 &kp LSHFT  &kp Z  &kp X      &kp C      &kp V  &kp B    &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
                              &trans    &trans  &trans   &trans   &trans  &none
+                        >;
+                };
 
                 Num {
                         label = "Num";
