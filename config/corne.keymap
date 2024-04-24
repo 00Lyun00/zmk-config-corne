@@ -202,7 +202,7 @@
                         label = "Nav";
                         bindings = <
 
-&none    &kp EXCL   &kp PG_UP &kp UP   &kp PG_DN  &kp LS(LA(TAB)          &bootloader   &none   &kp RCTRL  &kp RALT  &none    &none
+&none    &kp EXCL   &kp PG_UP &kp UP   &kp PG_DN  &kp LS(LA(TAB))          &bootloader   &none   &kp RCTRL  &kp RALT  &none    &none
 &none    &kp HOME   &kp LEFT  &kp DOWN &kp RIGHT  &kp END                 &to MAIN  &sk LSHFT   &sk LCTRL  &sk LEFT_ALT &sk LGUI   &none
 &none    &kp GRAVE   &kp LS(TAB)     &none    &kp TAB    &kp LA(TAB)      &kp LG(Y) &kp LG(V)   &kp LG(C)   &kp LG(X)   &kp LG(Z)  &none
                         &kp BSPC  &kp SPACE  &kp RET                      &trans    &none   &none 
