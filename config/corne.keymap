@@ -241,10 +241,10 @@
         Slct {
             label = "Slct";
             bindings = <
-   &none   &none  &kp LS((LC(LA(W))))  &kp LS((LC(LA(F))))  &kp LS((LC(LA(P))))  &kp LS((LC(LA(B))))   &none &none &none &none &none &none
-   &none   &none  &kp LS((LC(LA(R))))  &kp LS((LC(LA(S))))  &kp LS((LC(LA(T))))  &kp LS((LC(LA(G))))   &none &none &none &none &none &none
-   &none   &none  &kp LS((LC(LA(X))))  &kp LS((LC(LA(C))))  &kp LS((LC(LA(D))))  &kp LS((LC(LA(V))))   &none &none &none &none &none &none
-                           &kp LS((LC(LA(Q))))  &kp LS((LC(LA(A))))  &kp LS((LC(LA(Z))))          &none   &none   &none
+   &none   &none  &kp LS(LC(LA(W)))  &kp LS(LC(LA(F)))  &kp LS(LC(LA(P)))  &kp LS(LC(LA(B)))   &none &none &none &none &none &none
+   &none   &none  &kp LS(LC(LA(R)))  &kp LS(LC(LA(S)))  &kp LS(LC(LA(T)))  &kp LS(LC(LA(G)))   &none &none &none &none &none &none
+   &none   &none  &kp LS(LC(LA(X)))  &kp LS(LC(LA(C)))  &kp LS(LC(LA(D)))  &kp LS(LC(LA(V)))   &none &none &none &none &none &none
+                           &kp LS(LC(LA(Q)))  &kp LS(LC(LA(A)))  &kp LS(LC(LA(Z)))          &none   &none   &none
             >;
         };
 
