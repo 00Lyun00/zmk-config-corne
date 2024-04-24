@@ -211,7 +211,7 @@
    &none    &kp ESC  &none  &none   &none  &none                  &kp LT    &auto_chv  &kp GT   &auto_sqt &kp MINUS  &none
    &none    &sk LGUI &sk LEFT_ALT &sk LCTRL &sk LSHFT  &none      &kp LPAR  &auto_par  &kp RPAR &kp SQT   &kp SEMI   &none
    &none    &none    &none  &none   &none  &none                  &kp LBKT  &auto_bkt  &kp RBKT &auto_dqt &kp EXCL   &none
-                                   &kp LSHFT  &none  &none        &trans  &trans  &none 
+                                   &kp LSHFT  &bt BT_CLR  &none        &trans  &trans  &none 
             >;
         };
 
