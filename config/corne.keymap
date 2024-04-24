@@ -41,9 +41,9 @@
             key-positions = <13 14>;
         };
 
-        combo_ctrl {
+        combo_gui {
             timeout-ms = <50>;
-            bindings = <&kp LCGUI>;
+            bindings = <&kp LGUI>;
             key-positions = <14 15>;
         };
 
