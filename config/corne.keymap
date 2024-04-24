@@ -254,7 +254,7 @@
             label = "Handy";
             bindings = <
    &none &none   &kp F17     &kp F18     &kp F19     &kp LT          &kp PRINTSCREEN   &kp AMPERSAND  &kp ASTRK  &kp LPAR  &kp RPAR &none
-   &none &none   &kp F16     &kp LBK     &kp RBKT    &kp TILDE       &kp SCROLLLOCK    &kp DLLR       &kp PRCNT  &kp CARET &kp GRAVE &none
+   &none &none   &kp F16     &kp LBKT     &kp RBKT    &kp TILDE       &kp SCROLLLOCK    &kp DLLR       &kp PRCNT  &kp CARET &kp GRAVE &none
    &none &none   &kp F13     &kp F14     &kp F15     &kp GT          &kp PAUSE_BREAK   &kp EXCL       &kp AT     &kp HASH  &kp NON_US_BSLH &none
                      &bt BT_PRV      &bt BT_CLR   &bt BT_NXT         &none  &none      &none
             >;
